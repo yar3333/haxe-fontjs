@@ -1,0 +1,11 @@
+{
+  "name": "fontjs",
+  "license": "LGPL",
+  "tags": ["html","js"],
+  "description": "Externs for https://github.com/Pomax/Font.js.",
+  "contributors": ["yar3333"],
+  "version": "1.0.0",
+  "releasenote": "Init.",
+  "url": "https://bitbucket.org/yar3333/haxe-fontjs",
+  "dependencies": {}
+}
