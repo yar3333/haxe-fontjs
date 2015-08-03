@@ -8,7 +8,11 @@ package js.html;
 {
 	private static function __init__() : Void
 	{
+		#if !xpcom
 		haxe.macro.Compiler.includeFile("js/html/Font.js");
+		#else
+		haxe.macro.Compiler.includeFile("js/html/Font-xpcom.js");
+		#end
 	}
 	
 	var onload : Void->Void;
