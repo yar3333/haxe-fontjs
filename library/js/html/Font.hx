@@ -8,11 +8,9 @@ package js.html;
 {
 	private static function __init__() : Void
 	{
-		#if !xpcom
+		untyped __js__("(function()\n{\nvar Uint8Array = window.Uint8Array");
 		haxe.macro.Compiler.includeFile("js/html/Font.js");
-		#else
-		haxe.macro.Compiler.includeFile("js/html/Font-xpcom.js");
-		#end
+		untyped __js__("})()");
 	}
 	
 	var onload : Void->Void;
