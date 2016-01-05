@@ -1,7 +1,7 @@
 {
   "name": "fontjs",
   "license": "LGPL",
-  "tags": ["html","js"],
+  "tags": ["html","js","extern"],
   "description": "Externs for https://github.com/Pomax/Font.js.",
   "contributors": ["yar3333"],
   "releasenote": "Update original js (beauty). Fixed xpcom support. Haxe 3.2.0 support.",
